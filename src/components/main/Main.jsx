@@ -2,11 +2,13 @@ import React from 'react';
 import Button from '../button/Button';
 import portraitImg from '../../assets/potrait.png';
 import CoreStack from './CoreStack';
+import Academic from '../ui/Academic';
 
 const Main = () => {
     return (
         <main className='text-white px-6 sm:px-0 font-body space-y-32 container mt-4  mx-auto'>
 
+            {/* banner section  */}
             <section className='banner-section grid grid-cols-1 lg:grid-cols-2 place-items-center gap-4 items-center'>
                 <div className="banner-left flex items-center order-2 lg:order-1">
 
@@ -54,6 +56,10 @@ const Main = () => {
 
             <section>
                 <CoreStack />
+            </section>
+
+            <section>
+                <Academic/>
             </section>
         </main>
     );
