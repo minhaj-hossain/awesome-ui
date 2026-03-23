@@ -3,6 +3,7 @@ import Button from '../button/Button';
 import portraitImg from '../../assets/potrait.png';
 import CoreStack from './CoreStack';
 import Academic from '../ui/Academic';
+import Colaboration from '../ui/Colaboration';
 
 const Main = () => {
     return (
@@ -53,14 +54,11 @@ const Main = () => {
 
             </section>
 
+            <CoreStack />
 
-            <section>
-                <CoreStack />
-            </section>
+            <Academic />
 
-            <section>
-                <Academic/>
-            </section>
+            <Colaboration />
         </main>
     );
 };
