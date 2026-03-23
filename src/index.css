@@ -36,10 +36,12 @@
     /* Create custom shadow utilities */
     --shadow-pink-glow: 0 0 10px var(--color-primary-glow), 0 0 20px var(--color-primary-glow);
     --shadow-cyan-glow: 0 0 10px var(--color-secondary-glow), 0 0 20px var(--color-secondary-glow);
+    --shadow-dynamic-glow: 0 0 10px currentColor, 0 0 20px currentColor;
 
     /* Text Shadow Utilities */
     --text-shadow-pink: 0 0 8px #ff88b5, 0 0 15px rgba(255, 136, 181, 0.5);
     --text-shadow-cyan: 0 0 8px #00f4fe, 0 0 15px rgba(0, 244, 254, 0.5);
+    --text-shadow-cyan: 0 0 8px #757482, 0 0 15px rgba(117, 116, 130, 0.5)
 }
 
 @layer base {

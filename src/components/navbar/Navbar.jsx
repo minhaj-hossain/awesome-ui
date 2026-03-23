@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <nav className='w-10/12 mx-auto font-heading flex items-center justify-between border border-[rgba(255,255,255,0.1)] bg-[rgba(13,13,24,0.7)]  rounded-full py-4.25 px-6'>
+        <nav className='w-10/12 mx-auto font-heading flex items-center justify-between border border-[rgba(255,255,255,0.1)] bg-[rgba(13,13,24,0.7)]  rounded-full py-4.25 px-6 mt-6 sticky top-3'>
             {/* navbar left */}
             <div className="nav-left flex gap-2 items-center ">
                 <span><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -15,8 +15,8 @@ const Navbar = () => {
             {/* navbar center  */}
             <div className="nav-center font-bold text-14 text-[#94a3b8] hidden md:flex gap-4">
                 <p className='text-secondary text-shadow-cyan'>EXPLORE</p>
-                <p>SYSTEMS</p>
-                <p>BLUEPRINTS</p>
+                <p className=''>SYSTEMS</p>
+                <p className=''>BLUEPRINTS</p>
             </div>
 
             {/* nav right */}

@@ -1,10 +1,11 @@
 import React from 'react';
 import Button from '../button/Button';
 import portraitImg from '../../assets/potrait.png';
+import CoreStack from './CoreStack';
 
 const Main = () => {
     return (
-        <main className='text-white px-6 sm:px-0 font-body container mt-4  mx-auto'>
+        <main className='text-white px-6 sm:px-0 font-body space-y-32 container mt-4  mx-auto'>
 
             <section className='banner-section grid grid-cols-1 lg:grid-cols-2 place-items-center gap-4 items-center'>
                 <div className="banner-left flex items-center order-2 lg:order-1">
@@ -48,6 +49,11 @@ const Main = () => {
                     </div>
                 </div>
 
+            </section>
+
+
+            <section>
+                <CoreStack />
             </section>
         </main>
     );
