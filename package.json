@@ -1,6 +1,6 @@
 {
-  "name": "awesome-ui",
-  "homepage": "https://minhaj-hossain.github.io/portfolio-ui/",
+  "name": "portfolio-ui",
+  "homepage": "https://github.com/minhaj-hossain/portfolio-ui.git",
   "version": "0.0.0",
   "private": true,
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
